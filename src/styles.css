@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.search-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 300px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+main {
+    padding: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.photo-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.photo-card img {
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.info {
+    padding: 10px;
+}
+
+.info-item {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.load-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.load-more:hover {
+    background-color: #45a049;
+}
+
+.message {
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
